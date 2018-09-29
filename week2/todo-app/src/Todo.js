@@ -6,10 +6,19 @@ class Todo extends React.Component {
 
     return(
       <li>
+        {this.viewBox(todo)}
         <span>{todo.description + ', '}</span>
         <span>{todo.deadline}</span>
       </li>
     );
+  }
+
+  viewBox(item){
+    if(item.done){
+      return <input type="checkbox" defaultChecked />;
+    }else{
+      return <input type="checkbox" />;
+    }
   }
 }
 
