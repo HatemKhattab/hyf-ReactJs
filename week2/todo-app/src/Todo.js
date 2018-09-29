@@ -7,7 +7,7 @@ class Todo extends React.Component {
     return(
       <li>
         <span>{todo.description + ', '}</span>
-        <span>{todo.date + ', '}</span>
+        <span>{todo.deadline}</span>
       </li>
     );
   }
