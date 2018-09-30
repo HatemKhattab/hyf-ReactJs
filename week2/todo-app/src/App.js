@@ -39,6 +39,12 @@ class App extends React.Component {
       </div>
     );
   }
+
+  // TODO: toogle the done attribute depends on id
+
+  toggleTodo(id){
+    this.setState();
+  }
 }
 
 export default App;

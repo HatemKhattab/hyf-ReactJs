@@ -20,6 +20,7 @@ class Todo extends React.Component {
       return <input type="checkbox" />;
     }
   }
+
 }
 
 export default Todo;
